@@ -1,8 +1,5 @@
-bases: 
+bases:
 - ../../base
 
-
-namespace: prod
-
 patches:
-- replicas.yaml
+- path: replicas.yaml
