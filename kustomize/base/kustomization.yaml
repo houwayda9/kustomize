@@ -5,5 +5,5 @@ resources:
 
 images:
 - name: "react-app"
-  newName: "houwayda/test"
+  newName: "docker.io/houwayda/test"
   newTag: "4762b854c85b974d5ff89417ef15be8fba16b6af"
