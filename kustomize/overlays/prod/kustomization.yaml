@@ -3,4 +3,3 @@ bases:
 
 patches:
 - path: replicas.yaml
-- path: port.yaml
