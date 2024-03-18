@@ -1,8 +1,5 @@
-bases: 
+bases:
 - ../../base
 
-
-namespace: kustomize1
-
 patches:
-- replicas.yaml
+- path: replicas.yaml
