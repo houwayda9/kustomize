@@ -2,5 +2,7 @@ resources:
 - deployment.yaml
 - service.yaml
 
-
+images:
+- name: "react-app"
+  image: "houwayda/test:83285ca59be5a0042223704c8ece148fbbf62403"
 
