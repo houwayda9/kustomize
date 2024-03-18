@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-app
+  namespace: default
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+        - name: react-app
+          image: houwayda/test:d5b86844d83fb54d4a5ff82cb999d8802bcb546b
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
