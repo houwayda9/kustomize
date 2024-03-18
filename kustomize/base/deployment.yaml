@@ -4,11 +4,17 @@ metadata:
   name: react-app
 spec:
   replicas: 3
+  selector:
+    matchLabels:
+      app: react-app
   template:
+    metadata:
+      labels:
+        app: react-app
     spec:
       containers:
         - name: react-app
-          image: houwayda/test:d5b86844d83fb54d4a5ff82cb999d8802bcb546b
+          image: houwayda/test:83285ca59be5a0042223704c8ece148fbbf62403
           imagePullPolicy: Always
           ports:
             - containerPort: 80
