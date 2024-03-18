@@ -2,6 +2,5 @@ resources:
 - deployment.yaml
 - service.yaml
 
-commonLabels:
-  app: react-app
+
 
