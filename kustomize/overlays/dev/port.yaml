@@ -4,4 +4,5 @@ metadata:
   name: react-app
 spec:
  ports:
-   - nodePort: 31002
+    - port: 80
+      nodePort: 31001
