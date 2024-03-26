@@ -6,5 +6,5 @@ patches:
 
 images:
 - name: houwayda/test
-  newName: docker.io/houwayda/test
+  newName: docker.io/houwayda/prod
   newTag: e8b19ffeed7c03b969db6fe730538a9b4f58b622
