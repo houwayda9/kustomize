@@ -2,7 +2,13 @@ bases:
 - ../../base
 
 patches:
-- path: replicas.yaml
+- target:
+      kind: Deployment
+      name: react-app
+    patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 5
 
 commonLabels:
  env: production
