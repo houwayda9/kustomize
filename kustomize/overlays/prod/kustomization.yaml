@@ -2,13 +2,13 @@ bases:
 - ../../base
 
 patches:
-- target:
-      kind: Deployment
-      name: react-app
+  - target:
+       kind: Deployment
+       name: react-app
     patch: |-
-      - op: replace
-        path: /spec/replicas
-        value: 5
+       - op: replace
+         path: /spec/replicas
+         value: 5
 
 commonLabels:
  env: production
