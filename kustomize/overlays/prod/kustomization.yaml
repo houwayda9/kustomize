@@ -5,7 +5,7 @@ patches:
 - path: replicas.yaml
 
 commonLabels:
- env: prod
+ env: production
 
 images:
 - name: houwayda/test
