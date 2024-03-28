@@ -10,7 +10,7 @@ patches:
          path: /spec/replicas
          value: 5
        - op: add
-         path: /spec/matchLabels/app1
+         path: /spec/template/metadata/labels/app1
          value: test
 
 commonLabels:
