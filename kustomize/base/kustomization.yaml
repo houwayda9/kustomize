@@ -6,4 +6,4 @@ resources:
 images:
 - name: houwayda/test
   newName: docker.io/houwayda/test
-  newTag: ef597aa1b81ffe14cf7d205ff7c80e7962f2b634
+  newTag: ad2fb03fc4fcf98a516d4e5a7d30b3446f130611
